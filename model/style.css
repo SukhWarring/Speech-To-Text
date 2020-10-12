@@ -9,6 +9,7 @@ body
 {
   font-family: 'Montserrat', sans-serif;
   background-color: #025677;
+  background-image: url('./campus-deggendorf.webp');
   color: #fff;
 }
 .container 
