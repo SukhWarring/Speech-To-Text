@@ -1,6 +1,0 @@
-### IDEs ###
-# CLion
-
-node_modules
-/Speech-To-Text/node_modules/
-Speech-To-Text/node_modules
