@@ -11,6 +11,7 @@ body
   background-color: #025677;
   background-image: url('./campus-deggendorf.webp');
   color: #fff;
+  background-size: cover;
 }
 .container 
 {
@@ -50,12 +51,9 @@ body
   margin-top: 0.5rem;
   text-align: center;
   font-size: 0.75rem;
+  color: #fff;
 }
 
-@media (max-width: 1200px) 
-{
-  #search-form { width: 50%; }
-}
 @media (max-width: 768px)
  {
   .container { padding: 30px 35px; }

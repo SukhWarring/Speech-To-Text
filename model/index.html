@@ -1,23 +1,33 @@
 <!DOCTYPE html>
-<html lange="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-        <meta name="X-UA-Compatible" content="ie=edge">
-        <title> Speech To Text </title>
-        <link rel ="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/f51fc10bd1.js" defer></script>
-        <script src="main.js" defer></script>
-    </head>
-    <body>
-    <div class="container">
-        <form action="/search" method="POST"  id="search-form">
-          <input name="q" type="text" placeholder="Your output..." autocomplete="off" autofocus>
-          
-        </form >
 
-        <p class="info"></p>
-      </div>
-    </body>
-    </html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="app">
+            <div class="input-single">
+                <form action="/search" method="POST" id="input-single" target="_blank">
+                    <textarea id="textarea" input name="q" type="text" placeholder="Your Output....."
+                        rows="6"></textarea>
+                    <button style="background-color: rgb(182, 114, 37);" id="save-btn" title="Save Data">Save</button>
+                </form>
+            </div>
+            <button style="background-color: forestgreen;" id="clear-btn" title="Clear">Clear</button>
+            <button style="background-color: forestgreen;" id="start-btn" title="Start">Start</button>
+            <button style="background-color: darkred;" id="stop-btn" title="Stop">Pause</button>
+           
+        </div>
+        <p id="instructions">Press the Start button to speech recognition and allow mic access if not!</p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
