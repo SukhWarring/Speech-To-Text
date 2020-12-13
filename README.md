@@ -57,3 +57,15 @@ npm install --body-parser
 npm install --mongodb
 
 npm install --mongoose
+
+## how Project work 
+
+After install all dependency you can run your server via nodemon server.js
+and your server will run you can see it on your terminal 3005.
+now you can open browser and goto localhost 3005 and see the interface of app.
+here is some components like Textbox , 4 buttons everyone has own unique identy .
+so for starting project you can press start button for very first time browser will ask your permission to access your microphone to take your voice as a input . when you allow the browser then it will start working write what you say in text box .
+Stop button it will stop the recognition.
+clear button  it will clear all the input inside the box .
+save button  it will save all the data .
+Mango.js file have some link in 4th line which is indicate to connect your app with database if you copy it and past it into the compasse which is desktop or we can say GUI interface of mango will work properly .
