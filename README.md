@@ -40,6 +40,27 @@ npm install body-parser
 | **Mac**       |    not tested                          |    not tested                            |        not tested                                   |  not tested                       |
 | **Windows**   | Supported                       | no working                         |        not working                                   |  not working  
 
+
+#### Project setup
+```
+npm install  
+    ```
+npm install --nodemon 
+
+npm install --express  
+
+npm install --body-parser
+
+npm install --mongodb
+
+npm install --mongoose
+
+
+
+
+
+
+
 #### Project setup
 ```
 npm install  
